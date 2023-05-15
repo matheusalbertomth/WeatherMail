@@ -11,10 +11,10 @@ const sendEmail = (data) => {
   //alert(fullWeather);
   Email.send({
     Host : "smtp.elasticemail.com",
-    Username : "matheusalbertomth@gmail.com",
+    Username : "your e-mail",
     Password : "F6D339D6EB119830FD8F1AEE5AAAB430CF10",
     To : document.getElementById('InputEmail1').value,
-    From : 'matheusalbertomth@gmail.com',
+    From : 'your e-mail',
     Subject : "Previsão do Tempo",
     Body : fullWeather
   }).then(
